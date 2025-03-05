@@ -1326,6 +1326,7 @@
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\special\torso.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\special\whitecheesemaker.dm"
 #include "code\modules\jobs\job_types\roguetown\church\druid.dm"
+#include "code\modules\jobs\job_types\roguetown\church\martyr.dm"
 #include "code\modules\jobs\job_types\roguetown\church\monk.dm"
 #include "code\modules\jobs\job_types\roguetown\church\priest.dm"
 #include "code\modules\jobs\job_types\roguetown\church\templar.dm"
@@ -2048,3 +2049,4 @@
 #include "modular_hearthstone\code\modules\reagents\reagent_containers\lux.dm"
 #include "modular_hearthstone\code\modules\spells\roguetown\wizard.dm"
 // END_INCLUDE
+

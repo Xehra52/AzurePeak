@@ -1769,7 +1769,7 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 					if (result)
 						var/datum/virtue/virtue_chosen = virtue_choices[result]
 						virtue = virtue_chosen
-						if (virtue.desc)
+						if(virtue.desc)
 							to_chat(user, span_purple(virtue.desc))
 
 				if("virtuetwo")

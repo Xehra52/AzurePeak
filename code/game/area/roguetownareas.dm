@@ -668,6 +668,13 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	icon_state = "chapel"
 	first_time_text = "THE HOUSE OF THE TEN"
 
+/area/rogue/indoors/town/church/basement
+	icon_state = "church"
+	droning_sound = 'sound/music/area/catacombs.ogg'
+	droning_sound_dusk = null
+	droning_sound_night = null
+	first_time_text = "THE CRYPT OF THE TEN"
+
 /area/rogue/indoors/town/fire_chamber
 	name = "incinerator"
 	icon_state = "fire_chamber"

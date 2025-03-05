@@ -7,6 +7,7 @@
 	var/smelted = FALSE // Sanity for smelteries to avoid runtimes, if this is a bar smelted through ore for exp gain
 	var/is_silver = FALSE
 	var/last_used = 0
+	var/toggle_state = null
 //#else
 //	var/force_reupdate_inhand = FALSE
 //#endif

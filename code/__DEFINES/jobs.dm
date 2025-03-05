@@ -249,6 +249,7 @@
 #define JDO_BOGGUARD 9.1
 
 #define JDO_PRIEST 10
+#define JDO_MARTYR 11
 #define JDO_TEMPLAR 12
 #define JDO_MONK 13
 #define JDO_DRUID 13.1

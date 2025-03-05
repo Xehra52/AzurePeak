@@ -386,7 +386,8 @@ var/global/list/roguegamemodes = list("Rebellion", "Vampires and Werewolves", "E
 	"Templar",
 	"Bog Guard",
 	"Bog Master",
-	"Royal Guard"
+	"Royal Guard",
+	"Martyr",
 	)
 	antag_candidates = get_players_for_role(ROLE_NBEAST)
 	antag_candidates = shuffle(antag_candidates)
@@ -431,6 +432,7 @@ var/global/list/roguegamemodes = list("Rebellion", "Vampires and Werewolves", "E
 	"Guard Captain",
 	"Court Magician",
 	"Templar",
+	"Martyr",
 	"Bog Guard",
 	"Bog Master",
 	"Royal Guard",
