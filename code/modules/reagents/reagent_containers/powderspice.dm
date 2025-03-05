@@ -201,9 +201,10 @@
 /datum/reagent/ozium
 	name = "Ozium"
 	description = ""
-	color = "#60A584" // rgb: 96, 165, 132
+	color = "#a5606f" // rgb: 96, 165, 132
 	overdose_threshold = 16
 	metabolization_rate = 0.2
+	taste_description = "a bitter numbess"
 
 /datum/reagent/ozium/overdose_process(mob/living/M)
 	M.adjustToxLoss(3, 0)
@@ -222,7 +223,7 @@
 
 /obj/item/reagent_containers/powder/moondust
 	name = "moondust"
-	desc = ""
+	desc = "a mound of iridescent white powder with an acrid, potent scent that numbs your nostrils"
 	icon = 'icons/roguetown/items/produce.dmi'
 	icon_state = "moondust"
 	possible_transfer_amounts = list()
@@ -230,6 +231,14 @@
 	list_reagents = list(/datum/reagent/moondust = 15)
 	grind_results = list(/datum/reagent/moondust = 15)
 	sellprice = 5
+
+/datum/reagent/moondust
+	name = "moondust"
+	description = ""
+	color = "#f9e5fd"
+	overdose_threshold = 24
+	metabolization_rate = 0.2
+	taste_description = "numbness and the moon"
 
 /datum/reagent/moondust/overdose_process(mob/living/M)
 	M.adjustToxLoss(3, 0)
@@ -261,7 +270,7 @@
 
 /obj/item/reagent_containers/powder/moondust_purest
 	name = "moondust"
-	desc = ""
+	desc = "a spectacularly glittering pile of flaky, iridescent powder"
 	icon = 'icons/roguetown/items/produce.dmi'
 	icon_state = "moondust_purest"
 	possible_transfer_amounts = list()
@@ -273,9 +282,10 @@
 /datum/reagent/moondust_purest
 	name = "Purest Moondust"
 	description = ""
-	color = "#bfc3b5"
+	color = "#e7ade9"
 	overdose_threshold = 20
 	metabolization_rate = 0.2
+	taste_description = "sheer, unadulterated energy"
 
 /datum/reagent/moondust_purest/overdose_process(mob/living/M)
 	M.adjustToxLoss(3, 0)

@@ -8,7 +8,7 @@
 
 /proc/beakersforbeakers()
 	. = list()
-	for(var/t in subtypesof(/obj/item/reagent_containers))
+	for(var/t in subtypesof(/obj/item/reagent_containers) + list(/obj/structure/fermenting_barrel, /obj/item/roguebin))
 		var/obj/item/reagent_containers/C = t
 		. += list(list("id" = t, "text" = initial(C.name), "volume" = initial(C.volume)))
 
@@ -36,7 +36,7 @@
 	return container
 
 /datum/admins/proc/beaker_panel()
-	set category = "Debug"
+	set category = "GameMaster"
 	set name = "Spawn reagent container"
 	if(!check_rights())
 		return
