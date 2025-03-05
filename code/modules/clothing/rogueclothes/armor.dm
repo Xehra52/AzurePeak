@@ -102,6 +102,7 @@
 	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_CHOP)
 	armor = list("blunt" = 80, "slash" = 50, "stab" = 50, "piercing" = 80, "fire" = 0, "acid" = 0)
 	sellprice = 30
+	color = "#976E6B"
 
 /obj/item/clothing/suit/roguetown/armor/gambeson/otavan
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT
