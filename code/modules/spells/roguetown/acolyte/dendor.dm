@@ -143,7 +143,7 @@
 var/static/list/druid_forms = list(
 	// Basic forms (Level 1)
 	"cat" = list(
-		"path" = /mob/living/simple_animal/pet/cat,
+		"path" = /mob/living/simple_animal/hostile/retaliate/rogue/cat,
 		"level" = 1
 	),
 	"mudcrab" = list(
@@ -219,9 +219,6 @@ var/static/list/druid_forms = list(
 		to_chat(user, span_warning("You need Dendor's psicross to cast this spell!"))
 		return FALSE
 		
-	if(invocation)
-		user.say(invocation, forced = "spell")
-	
 	// Only show form selection if we haven't picked one before
 	if(!saved_form)
 		var/list/animal_list = list()
